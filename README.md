@@ -6,9 +6,9 @@
 
 ## 📚 Opis projektu
 
-**GraMY i OddaMY** to aplikacja webowa służąca do zarządzania katalogiem gier planszowych. Umożliwia dodawanie, przeglądanie i przeszukiwanie dostępnych gier, a także ich wypożyczanie (w kolejnych sprintach).
+**GraMY i OddaMY** to aplikacja webowa służąca do zarządzania katalogiem gier planszowych. Umożliwia dodawanie, przeglądanie, edytowanie oraz usuwanie gier, a także ich wypożyczanie w kolejnych sprintach.
 
-Aplikacja działa na serwerze VPS i korzysta z lokalnej bazy danych SQLite.
+Projekt działa na serwerze VPS i wykorzystuje bazę danych SQLite.
 
 ---
 
@@ -27,8 +27,10 @@ Aplikacja działa na serwerze VPS i korzysta z lokalnej bazy danych SQLite.
 - ✅ Przeglądanie listy wszystkich gier z bazy
 - ✅ Wyświetlanie szczegółów gry (opis, wiek, liczba graczy)
 - ✅ Dodawanie nowych gier przez formularz
+- ✅ Edytowanie danych gry
+- ✅ Usuwanie gier z katalogu
 - ✅ Baza danych SQLite z tabelą `games`
-- ✅ Działająca strona na VPS
+- ✅ Działająca aplikacja na VPS
 
 ---
 
@@ -38,7 +40,7 @@ Aplikacja działa na serwerze VPS i korzysta z lokalnej bazy danych SQLite.
 - 🔍 Wyszukiwanie i filtrowanie gier
 - 🌐 Integracja z API (np. BoardGameGeek)
 - 🧪 Testy jednostkowe
-- 🎨 Poprawa wyglądu (Bootstrap)
+- 🎨 Poprawa wyglądu strony (Bootstrap lub TailwindCSS)
 
 ---
 
@@ -48,5 +50,3 @@ Aplikacja działa na serwerze VPS i korzysta z lokalnej bazy danych SQLite.
 
 ```bash
 git clone https://github.com/Mariosss93/GraMY-i-OddaMY.git
-# GraMY-i-OddaMY
-Zwinne Metodyki Wytwarzania Oprogramowania
