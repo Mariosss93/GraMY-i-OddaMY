@@ -1,52 +1,65 @@
-# 🎲 GraMY i OddaMY
+# 🎲 GraMY i Oddamy — Biblioteka Gier Planszowych
 
-**Projekt zaliczeniowy z przedmiotu: Zwinne Metodyki Wytwarzania Oprogramowania**
-
----
-
-## 📚 Opis projektu
-
-**GraMY i OddaMY** to aplikacja webowa służąca do zarządzania katalogiem gier planszowych. Umożliwia dodawanie, przeglądanie, edytowanie oraz usuwanie gier, a także ich wypożyczanie w kolejnych sprintach.
-
-Projekt działa na serwerze VPS i wykorzystuje bazę danych SQLite.
+Projekt zaliczeniowy na przedmiot **Zwinne Metodyki Wytwarzania Oprogramowania**  
+Autorzy: Mariusz Pawlak, Bartłomiej Kajetan Paszko
 
 ---
 
-## 🛠️ Technologie
+## 📋 **Opis projektu**
 
-- PHP 8.1+
-- SQLite 3
-- HTML5 + CSS3
-- Apache2
-- VPS (Ubuntu 22.04)
+Aplikacja webowa do zarządzania biblioteką gier planszowych z funkcją wypożyczania, importu/eksportu danych, oraz integracją z BoardGameGeek API (BGG).
 
----
-
-## ✅ Funkcjonalności (Sprint 1)
-
-- ✅ Przeglądanie listy wszystkich gier z bazy
-- ✅ Wyświetlanie szczegółów gry (opis, wiek, liczba graczy)
-- ✅ Dodawanie nowych gier przez formularz
-- ✅ Edytowanie danych gry
-- ✅ Usuwanie gier z katalogu
-- ✅ Baza danych SQLite z tabelą `games`
-- ✅ Działająca aplikacja na VPS
+- **Frontend:** PHP + Bootstrap 5 (nowoczesny wygląd, responsywność)
+- **Backend:** PHP 8, SQLite3
+- **Repozytorium:** [github.com/Mariosss93/GraMY-i-OddaMY](https://github.com/Mariosss93/GraMY-i-OddaMY)
+- **Demo:** (adres Twojego VPS lub demo, jeśli chcesz go udostępnić)
 
 ---
 
-## 🧪 Planowane funkcje (Sprint 2)
+## 🛠️ **Główne funkcje**
 
-- 🔄 Wypożyczanie i zwracanie gier
-- 🔍 Wyszukiwanie i filtrowanie gier
-- 🌐 Integracja z API (np. BoardGameGeek)
-- 🧪 Testy jednostkowe
-- 🎨 Poprawa wyglądu strony (Bootstrap lub TailwindCSS)
+- Dodawanie, edycja i usuwanie gier (CRUD)
+- Przeglądanie szczegółów gry
+- Wypożyczanie i zwracanie gier (zmiana statusu)
+- Integracja z BoardGameGeek (BGG) API — automatyczne pobieranie danych o grach (opis, liczba graczy, wiek) przez proxy PHP
+- Eksport danych do pliku JSON
+- Import danych z pliku JSON (upload i masowy import)
+- Nowoczesny frontend (Bootstrap 5)
+- Obsługa wyjątków i komunikatów błędów
 
 ---
 
-## 🚀 Uruchomienie projektu
+## 💡 **Technologie i wymagania**
 
-1. **Klonowanie repozytorium:**
+- PHP 8
+- SQLite3 (baza w katalogu `database/games.db`)
+- Bootstrap 5 (CDN, nie trzeba instalować)
+- BoardGameGeek XML API + własny serwis proxy (`bgg_proxy.php`)
 
-```bash
-git clone https://github.com/Mariosss93/GraMY-i-OddaMY.git
+---
+
+## ⚙️ **Jak uruchomić projekt**
+
+1. Sklonuj repozytorium lub wrzuć pliki na serwer/VPS z PHP i SQLite
+2. Upewnij się, że masz katalog `database/` z plikiem `games.db` (struktura generowana automatycznie lub wg migracji)
+3. Otwórz w przeglądarce: `http://adres-serwera/graMY/index.php`
+
+---
+
+## 🚀 **Backlog i zwinny proces**
+
+- **SCRUM, Jira**: podział na Sprint 1 (CRUD, baza, podstawy, wypożyczanie), Sprint 2 (import/eksport, integracja BGG, nowoczesny frontend)
+- Każda funkcjonalność w Jira — backlog, Sprint Review, dokumentacja zadań
+- Repozytorium z historią commitów
+
+---
+
+## 🧑‍💻 **Autorzy**
+
+- **Mariusz Pawlak** [github.com/Mariosss93](https://github.com/Mariosss93)
+- **Bartłomiej Kajetan Paszko**
+
+---
+
+Ciąg dalszy nastąpi...
+
