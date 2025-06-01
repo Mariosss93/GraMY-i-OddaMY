@@ -115,8 +115,3 @@ W razie problemów — patrz logi serwera (`/var/log/apache2/error.log`) lub nap
 
 ---
 
-**To jest CAŁOŚĆ!**  
-Po prostu kliknij "Kopiuj", wklej do `INSTALL.md` i masz dokumentację jak zawodowiec.  
-**Jak cokolwiek nie przejdzie — daj znać, pomogę jeszcze szybciej!**  
-🚀
-```
