@@ -105,7 +105,7 @@ Dodanie importu i eksportu danych (JSON), automatycznego pobierania informacji o
 - screeny:
 
 ![1](https://github.com/user-attachments/assets/fe6a3240-5631-4bd9-ad3d-bb7293111fc3)
-.png…]()
+
 
 ![2](https://github.com/user-attachments/assets/3224cac9-08d7-435c-ade7-d0606e7f45fa)
 
