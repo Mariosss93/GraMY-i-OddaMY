@@ -102,6 +102,7 @@ Dodanie importu i eksportu danych (JSON), automatycznego pobierania informacji o
 
 - `README.md` — instrukcja obsługi
 - `INSTALL.md` — instrukcja wdrożenia na VPS
+- demo: http://57.128.228.140/graMY/index.php
 - screeny:
 
 ![1](https://github.com/user-attachments/assets/fe6a3240-5631-4bd9-ad3d-bb7293111fc3)
