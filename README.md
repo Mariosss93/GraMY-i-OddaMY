@@ -12,7 +12,7 @@ Aplikacja webowa do zarządzania biblioteką gier planszowych z funkcją wypoży
 - **Frontend:** PHP + Bootstrap 5 (nowoczesny wygląd, responsywność)
 - **Backend:** PHP 8, SQLite3
 - **Repozytorium:** [github.com/Mariosss93/GraMY-i-OddaMY](https://github.com/Mariosss93/GraMY-i-OddaMY)
-- **Demo:** (adres Twojego VPS lub demo, jeśli chcesz go udostępnić)
+- **Demo:** http://57.128.228.140/graMY/index.php
 
 ---
 
