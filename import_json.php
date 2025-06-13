@@ -1,4 +1,10 @@
 <?php
+session_start();
+if (!isset($_SESSION['role']) || !in_array($_SESSION['role'], ['admin', 'worker'])) {
+    header('Location: login.php');
+    exit;
+}
+?>
 $db = new SQLite3('../database/games.db');
 $msg = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_FILES['json_file'])) {
