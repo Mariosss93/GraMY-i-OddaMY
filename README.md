@@ -59,7 +59,4 @@ Aplikacja webowa do zarządzania biblioteką gier planszowych z funkcją wypoży
 - **Mariusz Pawlak** [github.com/Mariosss93](https://github.com/Mariosss93)
 - **Bartłomiej Kajetan Paszko**
 
----
-
-Ciąg dalszy nastąpi...
 
